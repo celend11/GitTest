@@ -181,6 +181,7 @@ class MainActivity : AppCompatActivity(){
 
         var cannull : (Int,Int) -> Int? = { x,y-> null }
         var cannull2 : ((Int,Int) -> Int)? = null
+        cannull(3,3)
 //        val i = Intent("android.intent.action.REBOOT")
 //        // 立即重启：1
 //        // 立即重启：1
